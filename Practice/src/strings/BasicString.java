@@ -13,10 +13,13 @@ public class BasicString {
 		int a = 5;
 		float b= 3.444f;
 		//System.out.printf("The value of a is %d and the value of b is %f", a , b);
-		System.out.format("The value of a is %d and the value of b is %f", a , b);
+		System.out.format("The value of a is %d and the value of b is %f \n", a , b);
 		
 		Scanner sc = new Scanner(System.in);
-		String st = sc.nextLine();
+		int sn = sc.nextInt();
+		System.out.println(sn);
+		Scanner score = new Scanner(System.in);
+		String st = score.nextLine();
 		System.out.println(st);
 		
 
